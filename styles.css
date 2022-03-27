@@ -1,0 +1,40 @@
+#calculator {
+    width: 50%;
+    height: auto;
+    border: solid;
+    border-width: 15px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#screen {
+    width: 100%;
+    height: 100px;
+    border: solid;
+    font-size: 95px;
+    text-align: right;
+}
+
+.row {
+    width: 100%;
+    height: 100px;
+    border: solid;
+    display: flex;
+}
+
+.button {
+    width: 25%;
+    height: 100%;
+    border: solid;
+    font-size: 55px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.action {
+    background-color: lightgray;
+}
+
+.number {
+    background-color: lightsalmon;
+}
